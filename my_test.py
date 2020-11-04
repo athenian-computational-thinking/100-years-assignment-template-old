@@ -1,7 +1,7 @@
-from my_code import inc
+from my_code import year_100
 
 
 def test_inc():
-    assert 5 == inc(4)
-    assert 1 == inc(0)
-    assert 0 == inc(-1)
+    assert 2105 == year_100(15)
+    assert 2120 == year_100(0)
+    assert 2095 == year_100(25)

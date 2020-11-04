@@ -1,26 +1,23 @@
-# Master CT Assignment Template 
-
-Use this master template to create CT Assignment Templates.
+# 100 years
 
 ## Problem Description
-Problem description goes here. 
+Calculate the year in which the user will be 100 years old.
 
-* Steps to take go here. 
 
 ## Example
 ```
-Value to increment? 5
-10
+Current age? 10
+2110
 ```
 
 ## Suggested Approach
-1) Suggestions go here
+1) The function uses `age` as a parameter. Decide how you will get from the current age to they year they will be 100.
+2) Write the code inside the function
+3) Test with the print statement provided
+4) Comment out the print statement and add the code as prompted to get the user input
+5) Run your program to test it. Does is work as expected?
+6) Run pytest
+    * Edit Configurations --> "+" --> pytest --> OK
+    * Run pytest
+7) Did it pass? If so, commit and push to GitHub. If not, why?
 
-## Hints
-* Use `input()` to prompt the user for a value. 
-
-Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-
-Run your code with: `python my_code.py`
-
-Run your tests with: `pytest`
